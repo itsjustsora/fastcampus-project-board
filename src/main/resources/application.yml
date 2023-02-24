@@ -8,9 +8,7 @@ management:
 logging:
   level:
     com.fastcampus.projectboard: debug
-    # request, response ??
     org.springframework.web.servlet: debug
-    # ??? ???? ??
     org.hibernate.type.descriptor.sql.BasicBinder: trace
 
 spring:
@@ -29,9 +27,6 @@ spring:
       hibernate:
         format_sql: true
         default_batch_fetch_size: 100
-  h2:
-    console:
-      enabled: false
   sql:
     init:
       mode: always
