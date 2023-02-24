@@ -31,7 +31,8 @@ spring:
     init:
       mode: always
   # thymeleaf.cache: false
-  # data:
-    # rest:
-      # base-path: /api
+  data:
+    rest:
+      base-path: /api
+      detection-strategy: annotated
 
